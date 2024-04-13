@@ -1,0 +1,15 @@
+[submodule "koka-docs"]
+	path = koka-docs
+	url = git@github.com:koka-community/koka-docs
+[submodule "community-docs"]
+	path = community-docs
+	url = git@github.com:koka-community/community-docs
+[submodule "std"]
+	path = std
+	url = git@github.com:koka-community/std
+[submodule "template"]
+	path = template
+	url = git@github.com:koka-community/template
+[submodule "parsing"]
+	path = parsing
+	url = git@github.com:koka-community/parsing
