@@ -1,0 +1,6 @@
+{
+  "koka.languageServer.compilerArguments": [
+    "-istd",
+    "-iparsing"
+  ]
+}
