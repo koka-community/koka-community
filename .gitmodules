@@ -1,15 +1,20 @@
 [submodule "koka-docs"]
 	path = koka-docs
 	url = git@github.com:koka-community/koka-docs
+	branch = main
 [submodule "community-docs"]
 	path = community-docs
 	url = git@github.com:koka-community/community-docs
+	branch = main
 [submodule "std"]
 	path = std
 	url = git@github.com:koka-community/std
+	branch = main
 [submodule "template"]
 	path = template
 	url = git@github.com:koka-community/template
+	branch = main
 [submodule "parsing"]
 	path = parsing
 	url = git@github.com:koka-community/parsing
+	branch = main
