@@ -18,3 +18,7 @@
 	path = parsing
 	url = git@github.com:koka-community/parsing
 	branch = main
+[submodule "madoko"]
+	path = madoko
+	url = git@github.com:koka-community/madoko
+  branch = main
