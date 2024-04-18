@@ -22,3 +22,15 @@
 	path = madoko
 	url = git@github.com:koka-community/madoko
   branch = main
+[submodule "alex"]
+	path = alex
+	url = git@github.com:koka-community/alex
+	branch = main
+[submodule "native"]
+	path = native
+	url = git@github.com:koka-community/native
+	branch = main
+[submodule "web"]
+	path = web
+	url = git@github.com:koka-community/web
+	branch = main
