@@ -26,11 +26,14 @@
 	path = alex
 	url = git@github.com:koka-community/alex
 	branch = main
+	shallow = true
 [submodule "native"]
 	path = native
 	url = git@github.com:koka-community/native
 	branch = main
+	shallow = true
 [submodule "web"]
 	path = web
 	url = git@github.com:koka-community/web
 	branch = main
+	shallow = true
