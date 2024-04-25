@@ -42,3 +42,11 @@
 	url = git@github.com:koka-community/llhttp.git
 	branch = main
 	shallow = true
+[submodule "mbedtls"]
+	path = mbedtls
+	url = git@github.com:koka-community/mbedtls.git
+	branch = main
+[submodule "zlib"]
+	path = zlib
+	url = git@github.com:koka-community/zlib.git
+	branch = main
