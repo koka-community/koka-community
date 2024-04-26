@@ -1,6 +1,13 @@
 {
   "koka.languageServer.compilerArguments": [
     "-istd",
-    "-iparsing"
-  ]
+    "-iparsing",
+    "-izlib",
+    "-illhttp",
+    "-imbedtls"
+  ],
+  "files.associations": {
+    "*.kkc": "koka",
+    "zlib_generated.h": "c"
+  }
 }
