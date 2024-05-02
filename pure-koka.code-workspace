@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "std"
+		},
+		{
+			"path": "parsing"
+		},
+		{
+			"path": "math"
+		},
+		{
+			"path": "madoko"
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"koka.language-koka",
+			"ms-vscode.cpptools",
+			"ms-vscode.cpptools-extension-pack"
+		]
+	},
+	"settings": {
+		"koka.languageServer.compilerArguments": [
+			"-i../std",
+			"-i../parsing",
+			"-i../madoko",
+			"-i../math"
+		],
+	}
+}

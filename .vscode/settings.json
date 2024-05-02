@@ -4,13 +4,14 @@
     "-iparsing",
     "-izlib",
     "-illhttp",
-    "-imbedtls"
+    "-imbedtls",
+    "-imath"
   ],
   "files.associations": {
     "*.kkc": "koka",
     "zlib_generated.h": "c"
   },
-  "git.detectSubmodulesLimit": 20,
+  "git.detectSubmodulesLimit": 30,
   "git.autofetch": true,
   "git.repositoryScanIgnoredFolders": [
     "node_modules",

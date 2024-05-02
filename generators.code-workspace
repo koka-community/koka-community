@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "native"
+		},
+		{
+			"path": "web"
+		},
+		{
+			"path": "alex"
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"koka.language-koka",
+			"dart-code.dart-code",
+			"ms-vscode.cpptools",
+			"ms-vscode.cpptools-extension-pack"
+		]
+	},
+	"settings": {
+		"dart.showExtensionRecommendations": false,
+	}
+}

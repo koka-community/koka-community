@@ -2,26 +2,32 @@
 	path = koka-docs
 	url = git@github.com:koka-community/koka-docs
 	branch = main
+	shallow = true
 [submodule "community-docs"]
 	path = community-docs
 	url = git@github.com:koka-community/community-docs
 	branch = main
+	shallow = true
 [submodule "std"]
 	path = std
 	url = git@github.com:koka-community/std
 	branch = main
+	shallow = true
 [submodule "template"]
 	path = template
 	url = git@github.com:koka-community/template
 	branch = main
+	shallow = true
 [submodule "parsing"]
 	path = parsing
 	url = git@github.com:koka-community/parsing
 	branch = main
+	shallow = true
 [submodule "madoko"]
 	path = madoko
 	url = git@github.com:koka-community/madoko
   branch = main
+	shallow = true
 [submodule "alex"]
 	path = alex
 	url = git@github.com:koka-community/alex
@@ -46,7 +52,14 @@
 	path = mbedtls
 	url = git@github.com:koka-community/mbedtls.git
 	branch = main
+	shallow = true
 [submodule "zlib"]
 	path = zlib
 	url = git@github.com:koka-community/zlib.git
 	branch = main
+	shallow = true
+[submodule "math"]
+	path = math
+	url = git@github.com:koka-community/math.git
+	branch = main
+	shallow = true

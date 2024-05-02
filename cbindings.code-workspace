@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"path": "llhttp"
+		},
+		{
+			"path": "mbedtls"
+		},
+		{
+			"path": "zlib"
+		},
+		{
+			"path": "native"
+		},
+		{
+			"path": "std"
+		}
+	],
+	"extensions": {
+		"recommendations": [
+			"koka.language-koka",
+			"dart-code.dart-code",
+			"ms-vscode.cpptools",
+			"ms-vscode.cpptools-extension-pack"
+		]
+	},
+	"settings": {
+		"koka.languageServer.compilerArguments": [
+			"-i../std",
+			"-i../zlib",
+			"-i../llhttp",
+			"-i../mbedtls"
+		],
+		"dart.showExtensionRecommendations": false,
+	}
+}

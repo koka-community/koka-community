@@ -5,7 +5,7 @@ Just clone this repository using the following commands:
 ```bash
 git clone git@github.com:koka-community/koka-community
 cd koka-community
-git submodule update --init --recursive
+git submodule update --init --recursive --depth=1
 git submodule foreach 'git checkout main'
 ```
 
@@ -14,5 +14,17 @@ Run the following command to update all the submodules to the latest commit on t
 git submodule update --remote
 ```
 
-`.vscode/settings.json` contains the configuration for koka's language server compiler arguments to use the submodules as include paths.
+Most often you will want to open a `.code-workspace` file to open only the relevant folders and submodules you want to work with in vscode.
+Due to the `--depth=1` flag in the update, you shouldn't have to worry about the size hopefully since it will only fetch the latest commit to work off of.
+
+We have the following workspaces:
+- admin - Contains the admin related repositories (community-docs, koka-docs, template, and `std` library)
+- pure-koka - Contains the pure Koka libraries (`std`, `parsing`, `math`, etc)
+- generators - Contains code generators for the Alex Lexer as well as native (`C`) and web (`JS`) external binding generators.
+- cbindings - Contains the Native code binding generator for `C` along with libraries that have been generated from C header files using it (`zlib`, `mbedtls`, `llhttp`)
+
+`.vscode/settings.json` contains the configuration for koka's language server compiler arguments to use the submodules as include paths, 
+for the whole `koka-community` repository. 
+Each smaller workspace includes the workspace settings in their own `.code-workspace` file.
+
 `language-koka*.vsix` is a development version of the koka language server extension for vscode. There are some updates that fix a few issues.
