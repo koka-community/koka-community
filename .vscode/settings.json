@@ -9,5 +9,17 @@
   "files.associations": {
     "*.kkc": "koka",
     "zlib_generated.h": "c"
-  }
+  },
+  "git.detectSubmodulesLimit": 20,
+  "git.autofetch": true,
+  "git.repositoryScanIgnoredFolders": [
+    "node_modules",
+    ".koka"
+  ],
+  "git.terminalGitEditor": true,
+  "git.fetchOnPull": true,
+  "git.mergeEditor": true,
+  "git.pullBeforeCheckout": true,
+  "git.pruneOnFetch": false,
+  "git.replaceTagsWhenPull": true
 }
