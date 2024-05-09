@@ -63,3 +63,13 @@
 	url = git@github.com:koka-community/math.git
 	branch = main
 	shallow = true
+[submodule "diplomat"]
+	path = diplomat
+	url = git@github.com:koka-community/diplomat.git
+	branch = main
+	shallow = true
+[submodule "icu4x"]
+	path = icu4x
+	url = git@github.com:koka-community/icu4x.git
+	branch = main
+	shallow = true
