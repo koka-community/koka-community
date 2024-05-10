@@ -28,3 +28,10 @@ for the whole `koka-community` repository.
 Each smaller workspace includes the workspace settings in their own `.code-workspace` file.
 
 `language-koka*.vsix` is a development version of the koka language server extension for vscode. There are some updates that fix a few issues.
+
+We set up a shallow clone for each of the submodules, so all of the remote branches and history won't be cloned to your computer when you clone this repo, just the latest code. If you want to fetch other branches do the following in the submodule you are working in:
+```bash
+git remote set-branches origin '*'
+git fetch -v --depth=1
+```
+This will fetch the missing remote branches.
