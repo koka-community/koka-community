@@ -73,3 +73,7 @@
 	url = git@github.com:koka-community/icu4x.git
 	branch = main
 	shallow = true
+[submodule "html"]
+	path = html
+	url = git@github.com:koka-community/html
+	branch = main
