@@ -10,6 +10,18 @@
 			"path": "math"
 		},
 		{
+			"path": "html"
+		},
+		{
+			"path": "benchmarks-game"
+		},
+		{
+			"path": "samples"
+		},
+		{
+			"path": "rosetta"
+		},
+		{
 			"path": "madoko"
 		}
 	],
@@ -24,8 +36,12 @@
 		"koka.languageServer.compilerArguments": [
 			"-i../std",
 			"-i../parsing",
+			"-i../math",
+			"-i../html",
+			"-i../benchmarks-game",
+			"-i../samples",
+			"-i../rosetta",
 			"-i../madoko",
-			"-i../math"
 		],
 	}
 }

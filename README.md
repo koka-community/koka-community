@@ -19,7 +19,7 @@ Due to the `--depth=1` flag in the update, you shouldn't have to worry about the
 
 We have the following workspaces:
 - admin - Contains the admin related repositories (community-docs, koka-docs, template, and `std` library)
-- pure-koka - Contains the pure Koka libraries (`std`, `parsing`, `math`, etc)
+- pure-koka - Contains the pure Koka libraries (`std`, `parsing`, `math`, `html`, `samples`, `rosetta`, `benchmarks-game` etc)
 - generators - Contains code generators for the Alex Lexer as well as native (`C`) and web (`JS`) external binding generators.
 - cbindings - Contains the Native code binding generator for `C` along with libraries that have been generated from C header files using it (`zlib`, `mbedtls`, `llhttp`)
 

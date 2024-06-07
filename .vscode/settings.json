@@ -5,7 +5,13 @@
     "-izlib",
     "-illhttp",
     "-imbedtls",
-    "-imath"
+    "-imath",
+    "-iweb",
+    "-ihtml",
+    "-imadoko",
+    "-irosetta",
+    "-isamples",
+    "-ibenchmarks-game"
   ],
   "files.associations": {
     "*.kkc": "koka",

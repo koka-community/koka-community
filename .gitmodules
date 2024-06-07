@@ -77,3 +77,15 @@
 	path = html
 	url = git@github.com:koka-community/html
 	branch = main
+[submodule "benchmarks-game"]
+	path = benchmarks-game
+	url = git@github.com:koka-community/benchmarks-game.git
+	branch = main
+[submodule "rosetta"]
+	path = rosetta
+	url = git@github.com:koka-community/rosetta.git
+	branch = main
+[submodule "samples"]
+	path = samples
+	url = git@github.com:koka-community/samples.git
+	branch = main
