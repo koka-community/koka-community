@@ -4,6 +4,9 @@
 			"path": "std"
 		},
 		{
+			"path": "compiler"
+		},
+		{
 			"path": "parsing"
 		},
 		{
@@ -23,6 +26,12 @@
 		},
 		{
 			"path": "madoko"
+		},
+		{
+			"path": "alex"
+		},
+		{
+			"path": "template"
 		}
 	],
 	"extensions": {
@@ -35,6 +44,7 @@
 	"settings": {
 		"koka.languageServer.compilerArguments": [
 			"-i../std",
+			"-i../compiler",
 			"-i../parsing",
 			"-i../math",
 			"-i../html",
@@ -42,6 +52,7 @@
 			"-i../samples",
 			"-i../rosetta",
 			"-i../madoko",
+			"-i../template"
 		],
 	}
 }

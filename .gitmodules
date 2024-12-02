@@ -89,3 +89,9 @@
 	path = samples
 	url = git@github.com:koka-community/samples.git
 	branch = main
+[submodule "compiler"]
+	path = compiler
+	url = git@github.com:koka-community/compiler.git
+[submodule "nodejs-net"]
+	path = nodejs-net
+	url = git@github.com:koka-community/nodejs-net.git
