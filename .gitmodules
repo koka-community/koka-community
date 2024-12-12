@@ -2,27 +2,22 @@
 	path = koka-docs
 	url = git@github.com:koka-community/koka-docs
 	branch = main
-	shallow = true
 [submodule "community-docs"]
 	path = community-docs
 	url = git@github.com:koka-community/community-docs
 	branch = main
-	shallow = true
 [submodule "std"]
 	path = std
 	url = git@github.com:koka-community/std
 	branch = main
-	shallow = true
 [submodule "template"]
 	path = template
 	url = git@github.com:koka-community/template
 	branch = main
-	shallow = true
 [submodule "parsing"]
 	path = parsing
 	url = git@github.com:koka-community/parsing
 	branch = main
-	shallow = true
 [submodule "madoko"]
 	path = madoko
 	url = git@github.com:koka-community/madoko
@@ -42,7 +37,6 @@
 	path = web
 	url = git@github.com:koka-community/web
 	branch = main
-	shallow = true
 [submodule "llhttp"]
 	path = llhttp
 	url = git@github.com:koka-community/llhttp.git
@@ -92,6 +86,12 @@
 [submodule "compiler"]
 	path = compiler
 	url = git@github.com:koka-community/compiler.git
+	branch = main
 [submodule "nodejs-net"]
 	path = nodejs-net
 	url = git@github.com:koka-community/nodejs-net.git
+	branch = main
+[submodule "kokac"]
+	path = kokac
+	url = git@github.com:koka-community/kokac
+	branch = main
