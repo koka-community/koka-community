@@ -95,3 +95,15 @@
 	path = kokac
 	url = git@github.com:koka-community/kokac
 	branch = main
+[submodule "reactives"]
+	path = reactives
+	url = git@github.com:koka-community/reactives.git
+	branch = main
+[submodule "uv"]
+	path = uv
+	url = git@github.com:koka-community/uv.git
+	branch = main
+[submodule "ui"]
+	path = ui
+	url = git@github.com:koka-community/ui.git
+	branch = main

@@ -32,6 +32,18 @@
 		},
 		{
 			"path": "template"
+		},
+		{
+			"path": "kokac"
+		},
+		{
+			"path": "uv"
+		},
+		{
+			"path": "ui"
+		},
+		{
+			"path": "reactives"
 		}
 	],
 	"extensions": {
@@ -52,7 +64,9 @@
 			"-i../samples",
 			"-i../rosetta",
 			"-i../madoko",
-			"-i../template"
-		],
+			"-i../template",
+			"-i../kokac",
+			"-i../uv"
+		]
 	}
 }
