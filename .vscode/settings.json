@@ -28,5 +28,17 @@
   "git.mergeEditor": true,
   "git.pullBeforeCheckout": true,
   "git.pruneOnFetch": false,
-  "git.replaceTagsWhenPull": true
+  "git.replaceTagsWhenPull": true,
+  "files.exclude": {
+    "**/*.vo": true,
+    "**/*.vok": true,
+    "**/*.vos": true,
+    "**/*.aux": true,
+    "**/*.glob": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  }
 }
