@@ -34,9 +34,6 @@
 			"path": "template"
 		},
 		{
-			"path": "kokac"
-		},
-		{
 			"path": "uv"
 		},
 		{
@@ -44,6 +41,9 @@
 		},
 		{
 			"path": "reactives"
+		},
+		{
+			"path": "kokaw"
 		}
 	],
 	"extensions": {
@@ -65,7 +65,7 @@
 			"-i../rosetta",
 			"-i../madoko",
 			"-i../template",
-			"-i../kokac",
+			"-i../kokaw",
 			"-i../uv"
 		]
 	}

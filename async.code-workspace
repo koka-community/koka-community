@@ -4,19 +4,16 @@
 			"path": "std"
 		},
 		{
-			"path": "compiler"
-		},
-		{
-			"path": "kokac"
-		},
-		{
 			"path": "parsing"
 		},
 		{
 			"path": "alex"
 		},
 		{
-			"path": "setup-koka"
+			"path": "uv"
+		},
+		{
+			"path": "kokaw"
 		}
 	],
 	"extensions": {
@@ -29,15 +26,11 @@
 	"settings": {
 		"koka.languageServer.compilerArguments": [
 			"-i../std",
-			"-i../compiler",
 			"-i../parsing",
-			"-i../kokac"
+			"-i../kokaw",
+			"-i../uv",
+			"--ccincdir=/opt/homebrew/include"
 		],
-		"koka.dev.developmentPath": "",
-		"files.associations": {
-			"*.rhm": "racket",
-			"time.h": "c",
-			"types.h": "c"
-		},
+		"koka.dev.developmentPath": "/Users/timwhiting/koka"
 	}
 }

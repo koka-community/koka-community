@@ -92,7 +92,7 @@
 	url = git@github.com:koka-community/nodejs-net.git
 	branch = main
 [submodule "kokac"]
-	path = kokac
+	path = kokaw
 	url = git@github.com:koka-community/kokac
 	branch = main
 [submodule "reactives"]
@@ -105,5 +105,11 @@
 	branch = main
 [submodule "ui"]
 	path = ui
-	url = git@github.com:koka-community/ui.git
+	url = git@github.com:koka-community/ui
 	branch = main
+[submodule "setup-koka"]
+	path = setup-koka
+	url = git@github.com:koka-community/setup-koka
+[submodule "tree-sitter"]
+	path = tree-sitter
+	url = git@github.com:koka-community/tree-sitter
